@@ -54,7 +54,6 @@ photos:
 
 # Build settings
 markdown: kramdown
-# theme: tachyons-blocks
 gems:
   - jekyll-feed
 
