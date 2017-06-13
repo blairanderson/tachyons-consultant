@@ -1,17 +1,17 @@
-# [Tachyons Templates](http://www.tachyonstemplates.com/) - [Mobile](http://www.tachyonstemplates.com/template-overview/tachyons-launchr/)
+# [Tachyons Templates](http://www.tachyonstemplates.com/) - [Tachyons Consultant Theme](http://www.tachyonstemplates.com/template-overview/tachyons-consultant/)
 
-[Tachyons Launchr](http://www.tachyonstemplates.com/template-overviews/tachyons-launchr/) is a landing page theme for web apps utilizing [Tachyons](http://tachyons.io/)
+[Tachyons Consultant](http://www.tachyonstemplates.com/template-overviews/tachyons-consultant/) is a landing page theme for web apps utilizing [Tachyons](http://tachyons.io/)
 
 ## Getting Started
 
 To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Tachyons Templates](http://www.tachyonstemplates.com/template-overview/tachyons-launchr/)
-* Clone the repo: `git clone https://github.com/blairanderson/tachyons-launchr.git`
+* [Download the latest release on Tachyons Templates](http://www.tachyonstemplates.com/template-overview/tachyons-consultant/)
+* Clone the repo: `git clone https://github.com/blairanderson/tachyons-consultant.git`
 * Fork the repo
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/blairanderson/tachyons-launchr/issues) here on GitHub or leave a comment on the [template overview page at Tachyons Templates](http://www.tachyonstemplates.com/template-overview/tachyons-launchr/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/blairanderson/tachyons-consultant/issues) here on GitHub or leave a comment on the [template overview page at Tachyons Templates](http://www.tachyonstemplates.com/template-overview/tachyons-consultant/).
 
 ## Creator
 
@@ -24,4 +24,4 @@ Tachyons Templates is based on the [Tachyons](http://tachyons.io/).
 
 ## Copyright and License
 
-Copyright 2017 Tachyons Templates LLC. Code released under the [MIT](https://github.com/blairanderson/tachyons-launchr/blob/gh-pages/LICENSE) license.
+Copyright 2017 Tachyons Templates LLC. Code released under the [MIT](https://github.com/blairanderson/tachyons-consultant/blob/gh-pages/LICENSE) license.
