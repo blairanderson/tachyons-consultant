@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="baskerville pv5">
+  <header class="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
+    <h1 class="f3 f2-m f-subheadline-l measure lh-title fw1 mt0">{{page.title}}</h1>
+    <time class="f5 f4-l db fw1 baskerville mb4"> {{ page.date | date: "%B %-d %Y"}}</time>
+  </header>
+  <div class="ph3 ph4-m ph5-l">
+    {% if page.excerpt %}
+    <blockquote class="f4 mb4 center measure lh-copy pl3 i bl bw3 b--black-30">
+      {{page.excerpt}}
+    </blockquote>
+    {% endif %}
+    <div class="measure db center f5 f4-ns lh-copy">
+      {{content}}
+    </div>
+  </div>
+</article>

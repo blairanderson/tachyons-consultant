@@ -1,0 +1,62 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Colors
+
+// Create grayscale
+$gray-dark:                 #292b2c !default;
+$gray:                      #464a4c !default;
+$gray-light:                #636c72 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+$brand-primary:				rgb(38,58,156) !default;
+
+// Buttons
+$btn-primary-border:		darken($brand-primary, 5%);
+
+// Brand Colors for Social Links
+$brand-github:				#333333;
+$brand-twitter:				#1da1f2;
+$brand-facebook:			#3b5998;
+$brand-google-plus:			#dd4b39;
+
+body {
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.p-animate,.p-animate:hover, .p-animate:focus  {
+  transition: padding .15s ease-in-out;
+}
+
+.m-animate,.m-animate:hover, .m-animate:focus  {
+  transition: margin .15s ease-in-out;
+}
+
+header {
+  &.affix-top {
+    nav a {
+      color: #111;
+    }
+  }
+  &.affix {
+    background-color: white;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    nav a {
+      color: #357edd;
+    }
+  }
+}

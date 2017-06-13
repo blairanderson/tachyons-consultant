@@ -1,0 +1,20 @@
+<section id="contact" class="vh-75 w-100 dt contact bg-near-white">
+  <div class="dtc v-mid">
+    <h2 class="tc near-black f1">Lets get in Touch!</h2>
+    {% include hr.html %}
+    <p class="mw7 center b near-black lh-copy f5 tc">
+      Contact a teammate to boost your sales and fire up your next project.
+      Shoot us an email or give us a shout and we'll get back asap!
+    </p>
+    <div class="pv4 ph3 tc">
+      <a class="link blue hover-silver dib mh3 tc" href="mailto:{{site.email}}?subject=feedback" title="email">
+        {% include icons/contact/mail.svg %}
+        <span class="f5 b db">email us</span>
+      </a>
+      <a class="link blue hover-silver dib mh3 tc" href="tel:{{site.telephone}}" title="GitHub">
+        {% include icons/contact/phone.svg %}
+        <span class="f5 b db ">{{site.telephone}}</span>
+      </a>
+    </div>
+  </div>
+</section>

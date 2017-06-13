@@ -1,0 +1,19 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdn.rawgit.com/twbs/bootstrap/v3.3.7/js/affix.js"></script>
+<script type="text/javascript">
+$(function() {
+  $('#mainNav').affix({ offset: { top: 50 } });
+  $(document).on('click', 'a.page-scroll', function(e) {
+    e.preventDefault();
+    var $anchor = $(this);
+    $('html, body')
+      .stop()
+      .animate(
+        { scrollTop: $($anchor.attr('href')).offset().top - 50 },
+        1250,
+        'easeInOutExpo'
+      );
+  });
+});
+</script>

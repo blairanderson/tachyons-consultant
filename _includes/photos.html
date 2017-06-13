@@ -1,0 +1,24 @@
+<div class="cf">
+  {% for service in site.photos %}
+  <div class="fl w-50 w-third-ns shadow-hover hide-child">
+    <div class="child cf w-100 h-100 absolute bg-blue tc white f3">
+      <div class="dt w-100 h-100">
+        <div class="dtc v-mid">
+          <h2 class="f4 f2-ns ma0 pa0 fw6 tc near-white">{{service.title}}</h2>
+          <h3 class="f5 f3-ns ma0 pa0 white-50">Service</h3>
+        </div>
+      </div>
+    </div>
+    <a href="{{service.link}}" target="_blank" rel="nofollow noreferrer noopener" class="db link dim tc">
+      <img src="{{service.image}}" alt="{{service.title}}" class="w-100 db"/>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="bg-near-black near-white pv4 pv5-ns">
+  <h1 class="f1 tc pv2 ma0">Free Download!</h1>
+  <div class="tc pv2">
+    <a href="http://www.tachyonstemplates.com/service-overviews/tachyons-consultant/" class="f3 ph4 pv3 mb2 dib link no-underline br-pill bg-white ba b--near-white near-black">DOWNLOAD THEME</a>
+  </div>
+</div>
