@@ -19,7 +19,7 @@ header-headline: Consultant - Showcase your consulting agency/company!
 header-subheadline: "Tachyons Templates is a great way to get started building websites using the tachyons css framework. Simply download and launch your site within minutes."
 email: feedback@tachyonstemplates.com
 telephone: 123-456-7899
-download-link: "http://www.tachyonstemplates.com/template-overviews/tachyons-consultant/"
+download-link: "http://www.tachyonstemplates.com/template-overviews/tachyons-consultant/?from=live-preview"
 description: > # a simple web app launch site built using tachyons
 baseurl: "/tachyons-consultant" # the subpath of your site, e.g. /blog
 url: "http://www.blairanderson.co" # the base hostname & protocol for your site, e.g. http://example.com
